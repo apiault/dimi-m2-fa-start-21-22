@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shippori+Antique&display=swap');
+
+/* body, body * {
+margin: 0px;
+box-sizing: border-box;
+position: relative;
+} */
+
+body{
+  background: url('palmier.jpeg');
+  color:indigo;
+  font-family: 'Shippori Antique', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  margin: 0px;
+}
+.divTitle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+.whiteBloc{
+  background-color: white;
+  box-shadow: 0px 0px 20px black;
+  padding: 100px 80px;
+}
+input{
+  text-align: center;
+  padding: 10px 30px;
+  box-shadow: 0px 0px 5px gray;
+  border: none;
+}
